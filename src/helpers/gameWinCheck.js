@@ -11,7 +11,6 @@ export default function (board) {
 
     ];
     for(let win of possibleWins){
-        console.log(win)
         if(win === 'XXX' || win === 'OOO') return true
     }
     return false
