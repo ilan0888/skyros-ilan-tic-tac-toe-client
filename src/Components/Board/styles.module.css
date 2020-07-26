@@ -1,0 +1,27 @@
+.board {
+    margin: auto;
+    width: 490px;
+}
+
+.board button {
+    cursor: pointer;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin: 5px;
+    font-size: 3em;
+}
+
+.board button:disabled{
+    cursor: not-allowed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container span{
+    text-align: center;
+}
